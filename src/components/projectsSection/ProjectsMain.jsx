@@ -15,39 +15,39 @@ const projects = [
     githubLink: "https://github.com/yourusername/ibima",
     status: "Live"
   },
-  {
-    name: "Moola App",
-    year: "Sept2022",
-    align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
-    description: "A financial management application helping users track expenses and manage budgets effectively.",
-    technologies: ["React", "Firebase", "Material UI", "Redux"],
-    githubLink: "#",
-    status: "In Development"
-  },
-  {
-    name: "Tourzania",
-    year: "Jan2023",
-    align: "right",
-    image: "../../public/images/website-img-3.jpg",
-    link: "#",
-    description: "An innovative travel platform showcasing unique destinations and experiences across Tanzania.",
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-    githubLink: "#",
-    status: "Planning"
-  },
-  {
-    name: "Bank of Luck",
-    year: "May2024",
-    align: "left",
-    image: "../../public/images/website-img-4.jpg",
-    link: "#",
-    description: "A modern banking platform offering seamless financial services and transactions.",
-    technologies: ["React", "Node.js", "GraphQL", "Docker"],
-    githubLink: "#",
-    status: "Planning"
-  },
+  // {
+  //   name: "Moola App",
+  //   year: "Sept2022",
+  //   align: "left",
+  //   image: "../../public/images/website-img-2.webp",
+  //   link: "#",
+  //   description: "A financial management application helping users track expenses and manage budgets effectively.",
+  //   technologies: ["React", "Firebase", "Material UI", "Redux"],
+  //   githubLink: "#",
+  //   status: "In Development"
+  // },
+  // {
+  //   name: "Tourzania",
+  //   year: "Jan2023",
+  //   align: "right",
+  //   image: "../../public/images/website-img-3.jpg",
+  //   link: "#",
+  //   description: "An innovative travel platform showcasing unique destinations and experiences across Tanzania.",
+  //   technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+  //   githubLink: "#",
+  //   status: "Planning"
+  // },
+  // {
+  //   name: "Bank of Luck",
+  //   year: "May2024",
+  //   align: "left",
+  //   image: "../../public/images/website-img-4.jpg",
+  //   link: "#",
+  //   description: "A modern banking platform offering seamless financial services and transactions.",
+  //   technologies: ["React", "Node.js", "GraphQL", "Docker"],
+  //   githubLink: "#",
+  //   status: "Planning"
+  // },
 ];
 
 const ProjectsMain = () => {
