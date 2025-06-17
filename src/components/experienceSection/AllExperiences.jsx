@@ -1,64 +1,36 @@
 import SingleExperience from "./SingleExperience";
-import { FaArrowRightLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
     job: "Front-End Developer",
-    company: "Alex Apps",
+    company: "Sys Nanatec",
+    location: "Nairobi, Kasarani",
     date: "2022 - Present",
+    contact: {
+      phone: "+254 759 530195",
+      email: "info@nanatec.co.ke"
+    },
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Developing and maintaining responsive web applications using React and modern JavaScript",
+      "Implementing reusable components and optimizing application performance",
+      "Collaborating with the team to deliver high-quality user experiences",
+      "Working on large-scale applications and generating innovative solutions",
+      "Building and integrating RESTful APIs with backend services",
+      "Implementing responsive designs and ensuring cross-browser compatibility",
+      "Writing clean, maintainable, and well-documented code",
+      "Participating in code reviews and implementing best practices",
+      "Troubleshooting and debugging complex issues",
+      "Staying updated with the latest web development trends and technologies"
     ],
-  },
-  {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
-    responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
-    ],
-  },
-  {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
-    responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
-    ],
-  },
+  }
 ];
 
 const AllExperiences = () => {
   return (
-    <div className="flex md:flex-row sm:flex-col items-center justify-between">
-      {experiences.map((experience, index) => {
-        return (
-          <>
-            <SingleExperience key={index} experience={experience} />
-            {index < 2 ? (
-              <motion.div
-                variants={fadeIn("right", 0)}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: false, amount: 0.7 }}
-              >
-                <FaArrowRightLong className="text-6xl text-orange lg:block sm:hidden" />
-              </motion.div>
-            ) : (
-              ""
-            )}
-          </>
-        );
-      })}
+    <div className="flex justify-center">
+      <SingleExperience experience={experiences[0]} />
     </div>
   );
 };

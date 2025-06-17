@@ -5,11 +5,15 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Ibima",
+    year: "2025",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    image: "../../public/images/ibima.png",
+    link: "https://ibima.co.ke/",
+    description: "A comprehensive insurance platform providing seamless insurance services and policy management across Kenya.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+    githubLink: "https://github.com/yourusername/ibima",
+    status: "Live"
   },
   {
     name: "Moola App",
@@ -17,6 +21,10 @@ const projects = [
     align: "left",
     image: "../../public/images/website-img-2.webp",
     link: "#",
+    description: "A financial management application helping users track expenses and manage budgets effectively.",
+    technologies: ["React", "Firebase", "Material UI", "Redux"],
+    githubLink: "#",
+    status: "In Development"
   },
   {
     name: "Tourzania",
@@ -24,6 +32,10 @@ const projects = [
     align: "right",
     image: "../../public/images/website-img-3.jpg",
     link: "#",
+    description: "An innovative travel platform showcasing unique destinations and experiences across Tanzania.",
+    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+    githubLink: "#",
+    status: "Planning"
   },
   {
     name: "Bank of Luck",
@@ -31,6 +43,10 @@ const projects = [
     align: "left",
     image: "../../public/images/website-img-4.jpg",
     link: "#",
+    description: "A modern banking platform offering seamless financial services and transactions.",
+    technologies: ["React", "Node.js", "GraphQL", "Docker"],
+    githubLink: "#",
+    status: "Planning"
   },
 ];
 
@@ -50,10 +66,7 @@ const ProjectsMain = () => {
           return (
             <SingleProject
               key={index}
-              name={project.name}
-              year={project.year}
-              align={project.align}
-              image={project.image}
+              {...project}
             />
           );
         })}

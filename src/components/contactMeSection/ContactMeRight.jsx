@@ -1,4 +1,3 @@
-import ContactInfo from "./ContactInfo";
 import ContactSocial from "./ContactSocial";
 
 const ContactMeRight = () => {
@@ -9,7 +8,6 @@ const ContactMeRight = () => {
         alt="email image"
         className="max-w-[300px]"
       />
-      <ContactInfo />
       <ContactSocial />
     </div>
   );
