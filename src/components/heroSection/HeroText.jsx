@@ -64,7 +64,7 @@ const HeroText = () => {
         className="flex gap-4 mt-2"
       >
         <a
-          href="/cv/Abigael_Njeri_CV.pdf"
+          href="/public/Abigael's CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 border border-orange text-orange rounded-lg hover:bg-orange/10 transition-colors"
@@ -73,7 +73,7 @@ const HeroText = () => {
           <span>View CV</span>
         </a>
         <a
-          href="/cover-letter/Abigael_Njeri_Cover_Letter.pdf"
+          href="/public/cover letter abz.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 border border-cyan text-cyan rounded-lg hover:bg-cyan/10 transition-colors"
