@@ -11,7 +11,8 @@ const SingleProject = ({
   description,
   technologies,
   githubLink,
-  status
+  status,
+  isLogo // Add isLogo prop
 }) => {
   return (
     <motion.div
@@ -90,13 +91,13 @@ const SingleProject = ({
         </div>
       </div>
 
-      <div className="relative group max-h-[320px] max-w-[500px] rounded-xl overflow-hidden hover:scale-105 transform transition-all duration-500">
+      <div className={`relative group ${name === "bizsure" ? "max-h-[80px] max-w-[120px] p-2 bg-white/10" : "max-h-[320px] max-w-[500px]"} rounded-xl overflow-hidden hover:scale-105 transform transition-all duration-500 flex items-center justify-center`}>
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 z-10"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-cyan/20 to-orange/20 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
         <img 
           src={image} 
           alt={`${name} project screenshot`} 
-          className="w-full h-full object-cover"
+          className={name === "bizsure" ? "w-auto h-12 object-contain mx-auto" : "w-full h-full object-cover"}
         />
       </div>
     </motion.div>
