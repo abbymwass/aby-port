@@ -15,17 +15,17 @@ const projects = [
     githubLink: "https://github.com/yourusername/ibima",
     status: "Live"
   },
-  // {
-  //   name: "Moola App",
-  //   year: "Sept2022",
-  //   align: "left",
-  //   image: "../../public/images/website-img-2.webp",
-  //   link: "#",
-  //   description: "A financial management application helping users track expenses and manage budgets effectively.",
-  //   technologies: ["React", "Firebase", "Material UI", "Redux"],
-  //   githubLink: "#",
-  //   status: "In Development"
-  // },
+  {
+    name: "bizsure",
+    year: "2025",
+    align: "right",
+    image: "../../public/images/bizsure-insurance.jpg", // If you have a logo, update this path to the logo file
+    link: "https://demo.surebiz.co.ke/",
+    description: "A financial management application helping users track expenses and manage budgets effectively.",
+    technologies: ["React", "Firebase", "Material UI", "Redux"],
+    githubLink: "https://github.com/yourusername/bizsure", // Use a GitHub link if available
+    status: "Live"
+  },
   // {
   //   name: "Tourzania",
   //   year: "Jan2023",
