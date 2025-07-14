@@ -26,17 +26,17 @@ const projects = [
     githubLink: "https://github.com/yourusername/bizsure", // Use a GitHub link if available
     status: "Live"
   },
-  // {
-  //   name: "Tourzania",
-  //   year: "Jan2023",
-  //   align: "right",
-  //   image: "../../public/images/website-img-3.jpg",
-  //   link: "#",
-  //   description: "An innovative travel platform showcasing unique destinations and experiences across Tanzania.",
-  //   technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-  //   githubLink: "#",
-  //   status: "Planning"
-  // },
+  {
+    name: "kids playzone ",
+    year: "J2025",
+    align: "right",
+    image: "../../public/images/kids.png",
+    link: "https://kidsplayzone.nanatec.co.ke/",
+    description: "this is a kids website that i have only dealt with the UI/ux.",
+    technologies: ["html,css,css3"],
+    githubLink: "",
+    status: "live"
+  },
   // {
   //   name: "Bank of Luck",
   //   year: "May2024",
